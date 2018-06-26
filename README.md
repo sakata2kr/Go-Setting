@@ -67,7 +67,9 @@ Files, Manuals For Go Development Environment in Windows Operation System
 
 6. Make Bat Execute File For Running MongoDB Server
   * Create Empty File And Edit
-   - (Project Folder Full Path)\mongodb-src-rx.x.x\bin/mongod --dbpath (Project Folder Full Path)\myMongoDB --port 51030 --logpath (Project Folder Full Path)\log\MongoDB.log --logappend
+  ```
+  (Project Folder Full Path)\mongodb-src-rx.x.x\bin/mongod --dbpath (Project Folder Full Path)\myMongoDB --port 51030 --logpath (Project Folder Full Path)\log\MongoDB.log --logappend
+  ```
 
 7. Running Visual Studio Code & Add Go Development Tools
 
