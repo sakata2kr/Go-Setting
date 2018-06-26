@@ -12,9 +12,9 @@ Files, Manuals For Go Development Environment in Windows Operation System
 
 2. Also Download Some Files For MongoDB Server & GUI Tool
    * MongoDB Community Server ARchive File
-       https://fastdl.mongodb.org/src/mongodb-src-r3.6.5.zip
+      - https://fastdl.mongodb.org/src/mongodb-src-r3.6.5.zip
    * Robot3T For MongoDB GUI Tool
-       https://download.robomongo.org/1.2.1/windows/robo3t-1.2.1-windows-x86_64-3e50a65.zip
+      - https://download.robomongo.org/1.2.1/windows/robo3t-1.2.1-windows-x86_64-3e50a65.zip
 
 3. Unzip All Archive Files
    Unzip or Execute Archive Files Under Project Folder
@@ -58,16 +58,16 @@ Files, Manuals For Go Development Environment in Windows Operation System
 5. Define User Environment Variables
    * Location : Control Panel -> System -> Advanced System Setting -> Environment Variables
    * Define User Environment For Using Go Path And Other Variables
-     GOPATH   : (Project Folder)/(workspace)
-     Path     : (Exists Path Value);%GOPATH%\bin
+    - GOPATH   : (Project Folder)/(workspace)
+    - Path     : (Exists Path Value);%GOPATH%\bin
    * Define System Environment For Using Go ROOT And Git
-     GOROOT   : (Project Folder)/go
-     GIT_PATH : (Project Folder)/git
-     Path     : (Exists Path Value);%GOROOT%\bin;%GIT_PATH%\bin;%GIT_PATH%\cmd;
+    - GOROOT   : (Project Folder)/go
+    - GIT_PATH : (Project Folder)/git
+    - Path     : (Exists Path Value);%GOROOT%\bin;%GIT_PATH%\bin;%GIT_PATH%\cmd;
 
 6. Make Bat Execute File For Running MongoDB Server
   * Create Empty File And Edit
-    (Project Folder Full Path)\mongodb-src-rx.x.x\bin/mongod --dbpath (Project Folder Full Path)\myMongoDB --port 51030 --logpath (Project Folder Full Path)\log\MongoDB.log --logappend
+   - (Project Folder Full Path)\mongodb-src-rx.x.x\bin/mongod --dbpath (Project Folder Full Path)\myMongoDB --port 51030 --logpath (Project Folder Full Path)\log\MongoDB.log --logappend
 
 7. Running Visual Studio Code & Add Go Development Tools
 
