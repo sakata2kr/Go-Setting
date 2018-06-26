@@ -1,4 +1,4 @@
-# [Go-Setting]
+# [Introduce]
 Files, Manuals For Go Development Environment in Windows Operation System
 
 # [First To Do]
