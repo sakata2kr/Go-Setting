@@ -4,11 +4,11 @@ Files, Manuals For Go Development Environment in Windows Operation System
 # [First To Do]
 1. Download Some Files For Golang Development
    * Golang Setup Archive File For MS Windows 64bit
-       https://dl.google.com/go/go1.10.3.windows-amd64.zip
+      - https://dl.google.com/go/go1.10.3.windows-amd64.zip
    * Git Portable Version File
-       https://github.com/git-for-windows/git/releases/download/v2.18.0.windows.1/PortableGit-2.18.0-64-bit.7z.exe
+      - https://github.com/git-for-windows/git/releases/download/v2.18.0.windows.1/PortableGit-2.18.0-64-bit.7z.exe
    * Visual Studio Code IDE
-       https://code.visualstudio.com/docs/?dv=winzip
+      - https://code.visualstudio.com/docs/?dv=winzip
 
 2. Also Download Some Files For MongoDB Server & GUI Tool
    * MongoDB Community Server ARchive File
