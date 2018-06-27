@@ -57,12 +57,12 @@
 5. Define User Environment Variables
    * Location : Control Panel -> System -> Advanced System Setting -> Environment Variables
      - Define User Environment For Using Go Path And Other Variables
-      1) GOPATH   : (Project Folder)/(workspace)
-      2) Path     : (Exists Path Value);%GOPATH%\bin
+        1) GOPATH   : (Project Folder)/(workspace)
+        2) Path     : (Exists Path Value);%GOPATH%\bin
      - Define System Environment For Using Go ROOT And Git
-      1) GOROOT   : (Project Folder)/go
-      2) GIT_PATH : (Project Folder)/git
-      3) Path     : (Exists Path Value);%GOROOT%\bin;%GIT_PATH%\bin;%GIT_PATH%\cmd;
+        1) GOROOT   : (Project Folder)/go
+        2) GIT_PATH : (Project Folder)/git
+        3) Path     : (Exists Path Value);%GOROOT%\bin;%GIT_PATH%\bin;%GIT_PATH%\cmd;
 
 6. Make Bat Execute File For Running MongoDB Server
   * Create Empty File And Edit
