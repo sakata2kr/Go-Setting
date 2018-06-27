@@ -16,8 +16,8 @@
       - https://download.robomongo.org/1.2.1/windows/robo3t-1.2.1-windows-x86_64-3e50a65.zip
 
 3. Unzip All Archive Files
-   Unzip or Execute Archive Files Under Project Folder
-   After Unzipping you'll find the following directories and files:
+   * Unzip or Execute Archive Files Under Project Folder
+   * After Unzipping you'll find the following directories and files:
    ```
    (Project Folder)/
    ├── go/
