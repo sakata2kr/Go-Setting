@@ -56,7 +56,8 @@
    ├── MongoDB/
    |   ....
    |   ├── myMongoDB/
-   |   └── myMongoDB/
+   |   └── log/
+   |
    └── GOPATH/
    ```
 
