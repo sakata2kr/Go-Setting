@@ -10,14 +10,18 @@
       - https://code.visualstudio.com/docs/?dv=winzip
 
 2. Also Download Some Files For MongoDB Server & GUI Tool
-   * MongoDB Community Server ARchive File
+   * MongoDB Community Server Archive File
       - http://downloads.mongodb.org/win32/mongodb-win32-x86_64-2008plus-ssl-v3.6-latest.zip
    * Robot3T For MongoDB GUI Tool
       - https://download.robomongo.org/1.2.1/windows/robo3t-1.2.1-windows-x86_64-3e50a65.zip
 
 3. Unzip All Archive Files
    * Unzip or Execute Archive Files Under Project Folder
-     (Specially, Extract PoratbleGit to Specific Directory - Git)
+     (go  ~ For Golang 64bit Archive File
+      Git ~ For Portable Git Archive File (Extract automatic)
+      MongoDB ~ For MongoDB Community Server Archive File
+      robo3t  ~ For Robot3T Archive File
+      VSCode  ~ For Visual Studio Code IDE Archive File)
    * After Unzipping you'll find the following directories and files:
    ```
    (Project Folder)/
@@ -26,32 +30,33 @@
    |   ├── bin/
    |       ....
    |
-   ├── mongodb-src-rx.x.x/
-   |                  ├── buildscripts/
-   |                  ├── debian/
-   |                      ....
+   ├── mongoDB/
+   |   └── bin/
    |
    ├── Git/
-   |           ├── bin/
-   |           ├── cmd/
-   |               ....
+   |   ├── bin/
+   |   ├── cmd/
+   |   ....
    |
-   ├── robot3t-x.x.x-windows-x86_64/
-   |                    ....
+   ├── robot3t/
+   |   ├── imageformats
+   |   ....
    |
-   └── VSCode-win32-x64-x.x.x/
+   └── VSCode/
    ```
 
 4. Create Empty Folder For Project Source
-   * For MongoDB : myMongoDB
-   * For Go Path Directory : GOPATH
+   * For MongoDB : (MongoDB)/myMongoDB
+   * For Go Path Directory : (MongoDB)/GOPATH
    * For Running Log File : log
    ```
    (Project Folder)/
    ├── go/
    ...
-   ├── log/
-   ├── myMongoDB/
+   ├── MongoDB/
+   |   ....
+   |   ├── myMongoDB/
+   |   └── myMongoDB/
    └── GOPATH/
    ```
 
@@ -64,7 +69,7 @@
         1) GOROOT       : (Project Folder)/go
         2) GIT_HOME     : (Project Folder)/git
         3) MongoDB_HOME : (Project Folder)/(MongoDB Path)
-        3) Path     : (Exists Path Value);%GOROOT%\bin;%GIT_PATH%\bin;%GIT_PATH%\cmd;%MongoDB_HOME%\bin
+        3) Path         : (Exists Path Value);%GOROOT%\bin;%GIT_PATH%\bin;%GIT_PATH%\cmd;%MongoDB_HOME%\bin
 
 6. Make Bat Execute File For Running MongoDB Server
   * Create Empty File And Edit
