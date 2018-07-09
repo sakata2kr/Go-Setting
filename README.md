@@ -46,19 +46,20 @@
    ```
 
 4. Create Empty Folder For Project Source
-   * For MongoDB : (MongoDB)/myMongoDB
-   * For Go Path Directory : (MongoDB)/GOPATH
-   * For Running Log File : log
+   * For Go Path Directory : (Project Folder)/GOPATH
+   * For MongoDB : (Project Folder)/(MongoDB)/myMongoDB
+   * For MongoDB Log File : (Project Folder)/(MongoDB)/log
    ```
    (Project Folder)/
    ├── go/
    ...
+   ├── GOPATH/
    ├── MongoDB/
    |   ....
    |   ├── myMongoDB/
    |   └── log/
    |
-   └── GOPATH/
+   ...
    ```
 
 5. Define User Environment Variables
