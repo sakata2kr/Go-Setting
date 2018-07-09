@@ -11,12 +11,13 @@
 
 2. Also Download Some Files For MongoDB Server & GUI Tool
    * MongoDB Community Server ARchive File
-      - https://fastdl.mongodb.org/src/mongodb-src-r3.6.5.zip
+      - http://downloads.mongodb.org/win32/mongodb-win32-x86_64-2008plus-ssl-v3.6-latest.zip
    * Robot3T For MongoDB GUI Tool
       - https://download.robomongo.org/1.2.1/windows/robo3t-1.2.1-windows-x86_64-3e50a65.zip
 
 3. Unzip All Archive Files
    * Unzip or Execute Archive Files Under Project Folder
+     (Specially, Extract PoratbleGit to Specific Directory - Git)
    * After Unzipping you'll find the following directories and files:
    ```
    (Project Folder)/
@@ -30,7 +31,7 @@
    |                  ├── debian/
    |                      ....
    |
-   ├── PortableGit/
+   ├── Git/
    |           ├── bin/
    |           ├── cmd/
    |               ....
@@ -43,7 +44,7 @@
 
 4. Create Empty Folder For Project Source
    * For MongoDB : myMongoDB
-   * For Go Project File : workspace
+   * For Go Path Directory : GOPATH
    * For Running Log File : log
    ```
    (Project Folder)/
@@ -51,23 +52,24 @@
    ...
    ├── log/
    ├── myMongoDB/
-   └── workspace/
+   └── GOPATH/
    ```
 
 5. Define User Environment Variables
    * Location : Control Panel -> System -> Advanced System Setting -> Environment Variables
      - Define User Environment For Using Go Path And Other Variables
-        1) GOPATH   : (Project Folder)/(workspace)
+        1) GOPATH   : (Project Folder)/GOPATH
         2) Path     : (Exists Path Value);%GOPATH%\bin
      - Define System Environment For Using Go ROOT And Git
-        1) GOROOT   : (Project Folder)/go
-        2) GIT_PATH : (Project Folder)/git
-        3) Path     : (Exists Path Value);%GOROOT%\bin;%GIT_PATH%\bin;%GIT_PATH%\cmd;
+        1) GOROOT       : (Project Folder)/go
+        2) GIT_HOME     : (Project Folder)/git
+        3) MongoDB_HOME : (Project Folder)/(MongoDB Path)
+        3) Path     : (Exists Path Value);%GOROOT%\bin;%GIT_PATH%\bin;%GIT_PATH%\cmd;%MongoDB_HOME%\bin
 
 6. Make Bat Execute File For Running MongoDB Server
   * Create Empty File And Edit
   ```
-  (Project Folder Full Path)\mongodb-src-rx.x.x\bin/mongod --dbpath (Project Folder Full Path)\myMongoDB --port 51030 --logpath (Project Folder Full Path)\log\MongoDB.log --logappend
+  mongod --dbpath %MongoDB_HOME%\myMongoDB --port 51030 --logpath %MongoDB_HOME%\log\MongoDB.log --logappend
   ```
 
 7. Running Visual Studio Code & Add Go Development Tools
