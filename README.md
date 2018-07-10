@@ -17,11 +17,11 @@
 
 3. Unzip All Archive Files
    * Unzip or Execute Archive Files Under Project Folder
-     ( - go  ~ For Golang 64bit Archive File
+       - go  ~ For Golang 64bit Archive File
        - Git ~ For Portable Git Archive File (Extract automatic)
        - MongoDB ~ For MongoDB Community Server Archive File
        - robo3t  ~ For Robot3T Archive File
-       - VSCode  ~ For Visual Studio Code IDE Archive File)
+       - VSCode  ~ For Visual Studio Code IDE Archive File
    * After Unzipping you'll find the following directories and files:
    ```
    (Project Folder)/
